@@ -13,7 +13,6 @@ list_len = len(list_to_sort)
 for i in range(list_len-1): 
   
   for j in range(0, list_len-i-1): 
-    # Traverse array from 0 to n-i-1 
     # Swap if greater than next 
     if list_to_sort[j] > list_to_sort[j+1] : 
       list_to_sort[j], list_to_sort[j+1] = list_to_sort[j+1], list_to_sort[j] 
